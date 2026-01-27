@@ -13,6 +13,7 @@ header {
     display: flex;
     padding: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -61,8 +62,19 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 2rem;
     border-radius: 2rem;
+    transition: all 0.4s ease;
+}
+
+.btn-inicial:hover {
+    transform:translateY(-5px)
+}
+
+.btn-inicial a {
+    text-decoration: none;
+    color: white;
 }
 
 .btn-centerer {
