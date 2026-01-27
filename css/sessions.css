@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+/*section {
+    background: grey;
+    height: 8rem;
+    width: 20rem;
+}*/
+
+h1 {
+    color: white;
+    margin-top: 5rem;
+}
+
+.btn {
+    background: white;
+    width: 9.8em;
+
+}
+
+.btn a {
+    text-decoration: none;
+}
